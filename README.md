@@ -22,7 +22,12 @@ Each tool has its own README with instructions.
 ### 📖 Currently relevant information you might want to know:
 >I am at the end of my 1st year BSc in physics, so don't expect anything mind blowing.\
 >I don't claim to know the full ins and outs of everything that I use.\
->This repository is a growing collection of small programs, tools, and utilities built during my physics undergrad — mostly in Python.
+>This repository is a growing collection of small programs, tools, and utilities built during my physics undergrad — mostly in Python.\
+>
+>While the main language of this repository will be english, you might also encounter finnish, especially in my saved schoolwork.\
+>Translation available upon request, for contact information, see [the bottom].\
+>
+>Want to translate to another language? Go ahead.
 
 
 ## 🧪 Quality and contribution
