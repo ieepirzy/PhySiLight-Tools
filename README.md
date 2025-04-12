@@ -5,19 +5,32 @@ A Collection of various programs, tools and utilities I have developed over the 
 >This repository is intended to grow as I develop and use more software tools during the course of my physics studies.
 >
 >Will include all sorts of programs, from data-analysis to physics simulations.\
->Functioning kind of like a miniature digital library
+>This repository is intended to function kind of like a miniature digital library.
 >
 >📜 **Licensed under MIT (with commercial use restrictions). See [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE) for details.**
 
 ## 🚀 Getting Started
 
 To run a tool:
-1. Navigate to its folder.
-2. (Optional) Create a virtual environment: `python -m venv venv`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the script: `python main.py`
+1. Copy/Clone the tool onto your device.\
+`Recommended: copy the url of the folder in your browser, and run "git clone <copied_url>" without the <> in the terminal.`
+> Note: if you do not have GIT installed, you can follow [this guide](https://github.com/git-guides/install-git) to install it.
+2. Make sure you have the required programming language installed.
+> You can check with `python --version` or `python3 --version` in the terminal/cmd.
+3. (Optional) Create a virtual environment
+> This helps manage dependencies without interfering with other projects.
+4. Install dependencies
+> `pip install -r requirements.txt` this works only if the tool has such a file, for more detailed instructions always consult the tool's README.
+5. Run the script
 
 Each tool has its own README with instructions.
+
+#### ✏️ Something to note
+> For most python scripts, the easiest way to run them will probably be using [google colab](https://colab.research.google.com/), if you're comfortable with using google's services.\
+> This is especially true for more complex simulations and solvers, as you get access to google's powerful servers.
+> 
+> However, the choice of environment depends on many factors, such as task complexity, resource requirements, personal preferences, and should be done at user discretion.\
+> The reality is that in physics, even seemingly simple tasks can require supercomputer levels of power, and creating currently uncomputable problems is easier than you might think!
 
 ### 📖 Currently relevant information you might want to know:
 >I am at the end of my 1st year BSc in physics, so don't expect anything mind blowing.\
@@ -45,6 +58,11 @@ Each tool has its own README with instructions.
 >**Disclaimer** I do not track, catalog, or guarantee the data-security of any of these programs, nor do I have the expertise to do so.
 >
 >Do keep in mind that your software will then be subject to the [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE), with all stated addendums used by this repository.
+
+### 🐍 Installing Python (If you don’t have it yet)
+#### For Windows:
+1. Visit the [Python Downloads page](https://www.python.org/downloads/).
+2. Download the latest stable version for Windows.
 
 # Culture
 
