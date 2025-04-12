@@ -1,16 +1,11 @@
 # PhySiLight-Tools
 A Collection of various programs, tools and utilities I have developed over the course of my physics studies.
 
-### Currently relevant information you might want to know:
-A growing collection of small programs, tools, and utilities built during my physics undergrad — mostly in Python.
->I am at the end of my 1st year BSc in physics, so don't expect anything mind blowing.\
->I don't claim to know the full ins and outs of everything that I use.\
->I primarily build these tools in Python.
-
 ## 🤔 About
 >This repository is intended to grow as I develop and use more software tools during the course of my physics studies.
 >
->Will include all sorts of programs, from data-analysis to physics simulations.
+>Will include all sorts of programs, from data-analysis to physics simulations.\
+>Functioning kind of like a miniature digital library
 >
 >📜 **Licensed under MIT (with commercial use restrictions). See LICENSE for details.**
 
@@ -23,6 +18,12 @@ To run a tool:
 4. Run the script: `python main.py`
 
 Each tool has its own README with instructions.
+
+### 📖 Currently relevant information you might want to know:
+>I am at the end of my 1st year BSc in physics, so don't expect anything mind blowing.\
+>I don't claim to know the full ins and outs of everything that I use.\
+>This repository is a growing collection of small programs, tools, and utilities built during my physics undergrad — mostly in Python.
+
 
 ## 🧪 Quality and contribution
 >I don't claim that any of the software here is "the best method" for solving a problem or simulating one.\
