@@ -7,7 +7,7 @@ A Collection of various programs, tools and utilities I have developed over the 
 >Will include all sorts of programs, from data-analysis to physics simulations.\
 >This repository is intended to function kind of like a miniature digital library.
 >
->📜 **Licensed under MIT (with commercial use restrictions). See [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE) for details.**
+>📜 **Licensed under the MIT license (with commercial use restrictions). See [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE) for details.**
 
 ## 🚀 Getting Started
 
@@ -33,14 +33,14 @@ Each tool has its own README with instructions.
 > The reality is that in physics, even seemingly simple tasks can require supercomputer levels of power, and creating currently uncomputable problems is easier than you might think!
 
 ### 📖 Currently relevant information you might want to know:
->I am at the end of my 1st year BSc in physics, so don't expect anything mind blowing.\
->I don't claim to know the full ins and outs of everything that I use.\
->This repository is a growing collection of small programs, tools, and utilities built during my physics undergrad — mostly in Python.\
+>I am currently nearing the end of my 1st year BSc in physics, so don't expect anything mind blowing just yet.\
+>I don't claim to have mastered everything I work with, but I’m always trying to learn and improve.\
+>This repository is a growing collection of small programs, tools, and utilities built during my physics undergrad — mostly in Python.
 >
 >While the main language of this repository will be english, you might also encounter finnish, especially in my saved schoolwork.\
->Translation available upon request, for contact information, see [the bottom].\
+>If you'd like a translation, just ask! Feel free to reach out using the contact information at [the bottom].
 >
->Want to translate to another language? Go ahead.
+>Interested in contributing a translation to another language? Go ahead!
 
 
 ## 🧪 Quality and contribution
@@ -53,8 +53,15 @@ Each tool has its own README with instructions.
 >Feel free to contribute. These tools are here to be shared, and so that others can use and grow them.
 
 ### 📐 Want to add your own programs to this repository?
->Fork the repo, add them, then create a PR, with a description stating what the tool is, what it does, how it was built, and what it's based on.
->
+>All additions are greatly appreciated and encouraged! If you’ve built something that might benefit others, feel free to contribute.
+1. Fork this repository
+2. Add your tool or program to the fork
+3. Create a pull request (PR), including a clear description including:
+    -  What the tool is for / use cases.
+    -  What it does.
+    -  How it was built, what technologies were used.
+    -  Any refrences or theories it's based on.
+4. Please **be honest** about any potential limitations or assumption in your tool, these are a natural part of any physics tool. The more transparency, the better!
 >**Disclaimer** I do not track, catalog, or guarantee the data-security of any of these programs, nor do I have the expertise to do so.
 >
 >Do keep in mind that your software will then be subject to the [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE), with all stated addendums used by this repository.
