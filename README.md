@@ -7,7 +7,7 @@ A Collection of various programs, tools and utilities I have developed over the 
 >Will include all sorts of programs, from data-analysis to physics simulations.\
 >Functioning kind of like a miniature digital library
 >
->📜 **Licensed under MIT (with commercial use restrictions). See LICENSE for details.**
+>📜 **Licensed under MIT (with commercial use restrictions). See [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE) for details.**
 
 ## 🚀 Getting Started
 
@@ -39,7 +39,7 @@ Each tool has its own README with instructions.
 >
 >**Disclaimer** I do not track, catalog, or guarantee the data-security of any of these programs, nor do I have the expertise to do so.
 >
->Do keep in mind that your software will then be subject to the license, with all stated addendums used by this repository.
+>Do keep in mind that your software will then be subject to the [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE), with all stated addendums used by this repository.
 
 # Culture
 
