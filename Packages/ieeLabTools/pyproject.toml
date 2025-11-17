@@ -14,9 +14,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ieepirzy/PhySiLight-Tools/Packages/ieeLabTools"
-Documentation = "https://ieepirzy/PhySiLight-Tools/Packages/ieeLabTools/README.md"
-Source = "https://github.com/ieepirzy/PhySiLight-Tools/Packages/ieeLabTools/ieeLabTools/core.py"
+Homepage = "https://github.com/ieepirzy/PhySiLight-Tools/tree/main/Packages/ieeLabTools"
+Documentation = "https://github.com/ieepirzy/PhySiLight-Tools/blob/main/Packages/ieeLabTools/README.md"
+Source = "https://github.com/ieepirzy/PhySiLight-Tools/blob/main/Packages/ieeLabTools/ieeLabTools/core.py"
 
 [build-system]
 requires = ["hatchling"]
