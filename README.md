@@ -9,6 +9,10 @@ A Collection of various programs, tools and utilities I have developed over the 
 >
 >📜 **Licensed under the MIT license (with commercial use restrictions). See [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE) for details.**
 
+## Project statuses:
+[![PyPI version](https://badge.fury.io/py/ieeLabTools.svg)](https://pypi.org/project/ieeLabTools/)
+
+
 ## 🚀 Getting Started
 
 To run a tool:
