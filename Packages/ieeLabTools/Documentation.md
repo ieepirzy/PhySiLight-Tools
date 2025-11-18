@@ -1,6 +1,6 @@
 # Documentation
 
-![Suomeksi:](https://github.com/ieepirzy/PhySiLight-Tools/blob/main/Packages/ieeLabTools/suomidocs.md)
+<a href="https://github.com/ieepirzy/PhySiLight-Tools/blob/main/Packages/ieeLabTools/suomidocs.md"> Dokumentaation pikaohjeet suomeksi </a>
 
 ## Quickstart / TL;DR
 
