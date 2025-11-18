@@ -40,6 +40,7 @@ The **initializer expects a sympy object representing the function** referred to
 An optional parameter for the initializer is a 1D array-like of the **variables as Sympy symbols** referred to as `var`.
 
 For note, the covariant expression for the YVEL is:
+
 $$
 \sigma = \sqrt{ \sum_{i}  \left( \frac{\partial f}{\partial x_{i}} \right) ^{2}\sigma_{i}^{2} +2 \sum_{i>j} \frac{\partial f}{\partial x_{i}} \frac{\partial f}{\partial x_{j}} \text{cov}(x_{i},x_{j}) }
 $$
