@@ -6,7 +6,7 @@ Saat moduulin käyttöösi suorittamalla komennon:
 pip install ieeLabTools
 ```
 
-<a hred="https://pypi.org/project/ieeLabTools/">Moduuli on julkaistu PyPi alustalle</a>
+<a href="https://pypi.org/project/ieeLabTools/">Moduuli on julkaistu PyPi alustalle</a>
 
 ## Pikaesimerkki:
 ```python
