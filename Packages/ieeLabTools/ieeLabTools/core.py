@@ -120,11 +120,8 @@ class weightedLinregress():
         Wxx = np.sum(w * self.x * self.x)
         Wxy = np.sum(w * self.x * self.y)
 
-        
-
         D = W * Wxx - Wx**2
 
-   
         slope = (W * Wxy - Wx * Wy) / D
         intercept = (Wxx * Wy - Wx * Wxy) / D
 
