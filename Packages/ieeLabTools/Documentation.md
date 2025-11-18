@@ -3,7 +3,7 @@
 ## Quickstart / TL;DR
 
 ```python
-from ieeLabTools import Yvel
+from ieeLabTools.core import Yvel
 import sympy as sp
 import numpy as np
 
@@ -12,8 +12,12 @@ U, I = sp.symbols("U I")
 R = U/I
 calc = Yvel(R)
 
+U_vals = np.array([1,2,3,4,5,6])
+I_vals = np.array([6,5,4,3,2,1])
+U_err = U_vals*0.001
+I_err = I_vals*0.05
 #Convert to desirable input format: m x k array-like, where k is your number of variables and m is your number of measurement events.
-values = np.column_stack([U_vals, I_vals])
+values = np.column_stack([U_vals, I_vals]) 
 sigmas = np.column_stack([U_err, I_err])
 
 sigma_R = calc.numeric(values, sigmas)
@@ -29,7 +33,7 @@ The class Yvel implements the general error propagation equation in non-covarian
 The mathematical expression for the YVEL in non-covariant from is:
 
 $$
-\sigma = \sqrt{ \sum_{i=0}  \left( \frac{\partial f}{\partial x_{i}} \right) ^{2}\sigma_{i}^{2} }
+\sigma = \sqrt{ \sum_{i}  \left( \frac{\partial f}{\partial x_{i}} \right) ^{2}\sigma_{i}^{2} }
 $$
 
 The **initializer expects a sympy object representing the function** referred to from now on as `f`.
@@ -43,7 +47,7 @@ $$
 > Note: Adding a method to take covariance into account is planned for a future release.
 
 ## Working principle:
-After instantiation, the class immediately either assings the given `var` or automatically detects variables from `f` using the  `free_symbols()` method.
+After instantiation, the class immediately either assigns the given `var` or automatically detects variables from `f` using the  `free_symbols()` method.
 
 Then the class calculates the partial derivatives for each variable by looping over all entries in `var` and calling `sp.diff`.
 
@@ -61,7 +65,7 @@ To find the deviation for $R$ using the ieeLabTools package, we will first build
 from ieeLabTools.core import Yvel
 import sympy as sp
 
-U , I = sp.symbols("U I") #Assing your symbols
+U , I = sp.symbols("U I") #Assign your symbols
 
 R = U/I #Create the expression
 
@@ -78,7 +82,7 @@ Example usage of the `symbolic()` method:
 
 symbolic_expression = instance.symbolic()
 #For the example function, you should see:
-print("symbolic_expression)
+print(symbolic_expression)
 #return this:
 #sqrt(sigma_U**2/I**2 + U**2*sigma_I**2/I**4)
 ```
@@ -87,7 +91,7 @@ The 2nd method exposed by the class is the `numeric()` method. This is the argua
 
 ### Working principle for `numeric()` 
 
-The `numeric()` method is intented to massively ease the computation of errors for functions with many variables each contributing values (and possibly errors), making the partial derivatives tedious to solve by hand.
+The `numeric()` method is intended to massively ease the computation of errors for functions with many variables each contributing values (and possibly errors), making the partial derivatives tedious to solve by hand.
 
 To achieve this, I design the method with 2 principles in mind:
 
