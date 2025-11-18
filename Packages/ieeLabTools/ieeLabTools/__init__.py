@@ -1,3 +1,3 @@
-from .core import Yvel, WeightedLinearRegression
+from .core import Yvel, weightedLinregress, ortDistanceRegress
 
-__all__ = ["Yvel", "WeightedLinearRegression"]
+__all__ = ["Yvel", "weightedLinregress","ortDistanceRegress"]
