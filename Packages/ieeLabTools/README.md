@@ -29,4 +29,6 @@ This library is part of the **PhySiLight-Tools** ecosystem.
 pip install ieeLabTools
 ```
 
+>🧪 This package was originally developed to automate general uncertainty propagation for physics lab courses, reducing >manual symbolic differentiation and repetitive numeric error calculation.
+
 Part of the PhySiLight-Tools physics utilities collection.
