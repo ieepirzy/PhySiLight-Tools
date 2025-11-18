@@ -6,6 +6,8 @@ Saat moduulin käyttöösi suorittamalla komennon:
 pip install ieeLabTools
 ```
 
+<a hred="https://pypi.org/project/ieeLabTools/">Moduuli on julkaistu PyPi alustalle</a>
+
 ## Pikaesimerkki:
 ```python
 from ieeLabTools.core import Yvel
