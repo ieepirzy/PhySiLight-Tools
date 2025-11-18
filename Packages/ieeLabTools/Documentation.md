@@ -56,9 +56,11 @@ Then a symbolic representation of the general error propagation equation is buil
 #### Example.
 
 For a simplistic example, consider Ohm's law:
+
 $$
 R=\frac{U}{I}
 $$
+
 To find the deviation for $R$ using the ieeLabTools package, we will first build an instance of the Yvel class:
 >Note: for correct usage, some degree of familiarity with numpy and sympy is required.
 
