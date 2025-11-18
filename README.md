@@ -3,7 +3,6 @@
 ## ieeLabTools
 
 [![PyPI](https://img.shields.io/pypi/v/ieeLabTools)](https://pypi.org/project/ieeLabTools/)
-![PyPI Downloads](https://img.shields.io/pypi/dm/ieeLabTools)
 ![Python Versions](https://img.shields.io/pypi/pyversions/ieeLabTools)
 ![License](https://img.shields.io/pypi/l/ieeLabTools)
 
