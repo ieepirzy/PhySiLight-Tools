@@ -1,3 +1,14 @@
+# Project statuses
+
+## ieeLabTools
+
+[![PyPI](https://img.shields.io/pypi/v/ieeLabTools)](https://pypi.org/project/ieeLabTools/)
+![PyPI Downloads](https://img.shields.io/pypi/dm/ieeLabTools)
+![Python Versions](https://img.shields.io/pypi/pyversions/ieeLabTools)
+![License](https://img.shields.io/pypi/l/ieeLabTools)
+
+General symbolic + numeric uncertainty propagation and weighted linear regression tools for physics and lab work.
+
 # PhySiLight-Tools
 A Collection of various programs, tools and utilities I have developed over the course of my physics studies.
 
@@ -8,10 +19,6 @@ A Collection of various programs, tools and utilities I have developed over the 
 >This repository is intended to function kind of like a miniature digital library.
 >
 >📜 **Licensed under the MIT license (with commercial use restrictions). See [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE) for details.**
-
-## Project statuses:
-[![ieeLabTools version](https://badge.fury.io/py/ieeLabTools.svg)](https://pypi.org/project/ieeLabTools/)
-
 
 ## 🚀 Getting Started
 
