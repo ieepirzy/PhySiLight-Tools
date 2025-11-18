@@ -1,5 +1,7 @@
 # Documentation
 
+![Suomeksi:](https://github.com/ieepirzy/PhySiLight-Tools/blob/main/Packages/ieeLabTools/suomidocs.md)
+
 ## Quickstart / TL;DR
 
 ```python
