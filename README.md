@@ -1,3 +1,13 @@
+# Project statuses
+
+## ieeLabTools
+
+[![PyPI](https://img.shields.io/pypi/v/ieeLabTools)](https://pypi.org/project/ieeLabTools/)
+![Python Versions](https://img.shields.io/pypi/pyversions/ieeLabTools)
+![License](https://img.shields.io/pypi/l/ieeLabTools)
+
+General symbolic + numeric uncertainty propagation and weighted linear regression tools for physics and lab work.
+
 # PhySiLight-Tools
 A Collection of various programs, tools and utilities I have developed over the course of my physics studies.
 
@@ -30,11 +40,11 @@ Each tool has its own README with instructions.
 > This is especially true for more complex simulations and solvers, as you get access to google's powerful servers.
 > 
 > However, the choice of environment depends on many factors, such as task complexity, resource requirements, personal preferences, and should be done at user discretion.\
-> The reality is that in physics, even seemingly simple tasks can require supercomputer levels of power, and creating currently uncomputable problems is easier than you might think!
+> My recommendation (and what I nowadays use for everything) is virtual environments or venvs.
+> The reality is that in physics, even seemingly simple tasks can require supercomputer levels of compute power, and creating currently uncomputable problems is easier than you might think!
 
 ### 📖 Currently relevant information you might want to know:
->I am currently nearing the end of my 1st year BSc in physics, so don't expect anything mind blowing just yet.\
->I don't claim to have mastered everything I work with, but I’m always trying to learn and improve.\
+>I am currently in the 2nd year of my BSc in physics, so don't expect anything mind blowing just yet.\
 >This repository is a growing collection of small programs, tools, and utilities built during my physics undergrad — mostly in Python.
 >
 >While the main language of this repository will be english, you might also encounter finnish, especially in my saved schoolwork.\
@@ -64,7 +74,7 @@ Each tool has its own README with instructions.
 4. Please **be honest** about any potential limitations or assumption in your tool, these are a natural part of any physics tool. The more transparency, the better!
 >**Disclaimer** I do not track, catalog, or guarantee the data-security of any of these programs, nor do I have the expertise to do so.
 >
->Do keep in mind that your software will then be subject to the [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/blob/24c327bf0fbcea9fcad01ccce54fcafa0ba7ec3d/LICENSE), with all stated addendums used by this repository.
+>Do keep in mind that your software will then be subject to the [LICENSE](https://github.com/ieepirzy/PhySiLight-Tools/LICENSE), with all stated addendums used by this repository.
 
 ### 🐍 Installing Python (If you don’t have it yet)
 #### For Windows:
